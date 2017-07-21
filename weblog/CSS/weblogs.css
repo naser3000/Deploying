@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'B';
+    src: url('../Fonts/irsans.ttf');
+    }
+    
+    *{
+        font-family: 'B';
+    }
+    
+    .header{
+        width: 100%;
+        height: 150px;
+        position: fixed;
+        background-color: darkcyan;
+    }
+    
+    .contain{
+        width: auto;
+        height: auto;
+        direction: rtl;
+        margin-left: 10px;
+        margin-right: 10px;
+        background-image: url(../java.jpg);
+        background-attachment: fixed;
+    }
+
+    
+    .post{
+        width: 300px;
+        height: 600px;
+        direction: rtl;
+        margin: 10px;
+        text-align: justify;
+        display: inline-table;
+        background-color: antiquewhite;
+    }
+    
+    .post_text{
+        width: 250px;
+        height: 500px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .photo{
+        width: 250px;
+        height: auto;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 10px;
+        background-color: darkcyan;
+    }
+.photo_input{
+        width: 250px;
+        height: 50px;
+        font-size: 18;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 10px;
+        text-align: center;
+        font-weight: bolder;
+        color: antiquewhite;
+        background-color: darkcyan
+    }
+    .photo img{
+        width: 250px;
+        height: 150px;
+        margin-bottom: 10px;
+    }
+    
+    .text{
+        width: 250px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: justify;
+    }
+.text_input{
+        width: 250px;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: justify;
+        background-color: antiquewhite;
+    }
+    
+    .text img{
+        width: 50px;
+        height: 50px;
+        float: right;
+        margin-top: 5px;
+        margin-right: 5px;
+        margin-left: 5px;
+        border-style: solid;
+        border-radius: 50%;
+    }
+    
+    .botton1{
+        width: 300px;
+        height: 50px;
+        margin-bottom: 10px;
+        color: antiquewhite;
+        background-color: cadetblue;
+        border-radius: 5px;
+    }
+    
+    h3{
+        margin-right: 7px;
+        margin-left: 7px;
+        padding: 5px;
+        text-align: center;
+        font-weight: bolder;
+        color: antiquewhite;
+    }
+    
+    h5{
+        font-weight: bold;
+        color: darkcyan;
+    }

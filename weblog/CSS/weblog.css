@@ -1,0 +1,137 @@
+@font-face {
+    font-family: 'B';
+    src: url('../Fonts/irsans.ttf');
+    }
+    
+    *{
+        font-family: 'B';
+    }
+    
+    .header{
+        width: 100%;
+        height: 120px;
+        position: fixed;
+        background-color: darkcyan;
+    }
+    
+    .contain{
+        width: auto;
+        height: auto;
+        direction: rtl;
+        margin-left: 10px;
+        margin-right: 10px;
+        background-image: url(../java.jpg);
+        background-attachment: fixed;
+    }
+
+    
+    .post{
+        width: 1000px;
+        height: auto;
+        margin-right: auto;
+        margin-left: auto;
+        direction: rtl;
+        text-align: justify;
+        background-color: antiquewhite;
+    }
+    
+    .photo{
+        width: 750px;
+        height: 650px;
+        font-size: 20;
+        padding-top: 2px;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        background-color: darkcyan;
+    }
+    .photo img{
+        width: 750px;
+        height: 500px;
+    }
+    
+    .text{
+        width: 750px;
+        height: auto;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: justify;
+    }
+    
+    .text img{
+        width: 50px;
+        height: 50px;
+        float: right;
+        border-style: solid;
+        border-radius: 50%;
+    }
+    
+
+    .comment{
+        width: 750px;
+        height: auto;
+        font-size: 14;
+        margin-top: 50px;
+        padding-top: 10px;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        color: antiquewhite;
+        background-color: darkcyan;
+    }
+    .each_comment{
+        width: 700px;
+        height: auto;
+        font-size: 18;
+        text-align: justify;
+        margin-top: 10px;
+        margin-right: auto;
+        margin-left: auto;
+        border-style: solid;
+        border-radius: 2px;
+        border-width: 0.5px;
+        border-color: antiquewhite;
+        color: antiquewhite;
+        background-color: darkcyan;
+    }
+    .comment_text{
+        width: 700px;
+        height: auto;
+        font-size: 14;
+        margin-top: 50px;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        border-style: solid;
+        border-radius: 10px;
+        border-color: antiquewhite;
+        color: antiquewhite;
+        background-color: darkcyan;
+    }
+    .botton1{
+        width: 100px;
+        height: 25px;
+        margin-bottom: 10px;
+        color: antiquewhite;
+        background-color: cadetblue;
+        border-radius: 5px;
+    }
+    
+.confirm{
+    width: 300px;
+    height: 50px;
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    color: antiquewhite;
+    background-color: cadetblue;
+    border-radius: 5px;
+}
+    h3{
+        color: antiquewhite;
+    }
+    
+    h5{
+        color: darkcyan;
+    }

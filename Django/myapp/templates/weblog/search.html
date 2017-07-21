@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Satisfy" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body style="background: deepskyblue">
+		<div>
+			<form class="navbar-form navbar-left" role="search" method="POST" action="">{% csrf_token %}
+				<div class="form-group">
+					<input type="text" class="form-control" name="q" value="" style="width: 500px; background-color: antiquewhite;">
+				</div>
+				<button type="submit" class="btn btn-default" style="background-color: wheat;">Search</button>
+                <p><strong style="color: red;">{{ error_message }}</strong></p>
+			</form>
+		</div>
+
+
+
+		<div class="col-sm-8 col-md-9" style="margin-top: 100px">
+            <div class="panel panel-default">
+                <div class="panel-body">
+
+                    <h3 >All Results</h3>
+
+                    <table class="table">
+                        <thead>
+                        <tr>
+                        	<th>Row</th>
+                            <th>Auther</th>
+                            <th>Number of Repeats</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {% for key, value in weblogs %}
+                        	{% if forloop.counter < 11 %}
+                            	<tr>
+                            		<th>{{ forloop.counter }}</th>
+                                	<td>{{ key.weblog_auther }}</td>
+                                	<td>{{ value }}</td>
+                            	</tr>
+                            {% endif %}
+                        {% endfor %}
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+
+        </div>
+
+</body>
+</html>
